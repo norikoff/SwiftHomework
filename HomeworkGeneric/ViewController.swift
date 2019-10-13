@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         let src = "aaa"
         let key = "1"
         let customUserDefaults = CustomUserDefaults<String>()
-        customUserDefaults.set(src, forKey: key)
+        customUserDefaults.set(src, key)
         print(customUserDefaults.get(key))
     }
     
